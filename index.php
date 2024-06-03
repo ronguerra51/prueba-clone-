@@ -6,11 +6,11 @@
 require '../../modelos/Cliente.php';
 
 // VALIDAR INFORMACION
-$_POST['cli_id'] = filter_var($_POST['cli_id'], FILTER_VALIDATE_INT);
-$_POST['cli_nombre'] = htmlspecialchars($_POST['cli_nombre']);
-$_POST['cli_apellido'] = htmlspecialchars($_POST['cli_apellido']);
-$_POST['cli_nit'] = filter_var($_POST['cli_nit'], FILTER_VALIDATE_INT);
-$_POST['cli_telefono'] = filter_var($_POST['cli_telefono'], FILTER_VALIDATE_INT);
+// $_POST['cli_id'] = filter_var($_POST['cli_id'], FILTER_VALIDATE_INT);
+// $_POST['cli_nombre'] = htmlspecialchars($_POST['cli_nombre']);
+// $_POST['cli_apellido'] = htmlspecialchars($_POST['cli_apellido']);
+// $_POST['cli_nit'] = filter_var($_POST['cli_nit'], FILTER_VALIDATE_INT);
+// $_POST['cli_telefono'] = filter_var($_POST['cli_telefono'], FILTER_VALIDATE_INT);
 
 
 // if ($_POST['cli_nombre'] == '' || $_POST['cli_apellido'] == '' || $_POST['cli_nit'] < 0 || $_POST['cli_telefono'] < 0) {
